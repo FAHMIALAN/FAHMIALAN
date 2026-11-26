@@ -1,11 +1,12 @@
 <!-- 1. Banner Animasi Builder (Excavator & Truk) -->
 <p align="center">
-  <img src="./builder-typing.svg" alt="Code Builder Typing" width="100%" />
+  <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
 </p>
 
-<!-- 2. Status Proyek (Compact & Clean) -->
+<!-- 2. Status Proyek (Anti-Bug) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=F59E0B&center=true&vCenter=true&width=550&lines=🚧+CODE+BUILDER+%7C+FULLSTACK+%26+BACKEND+ENGINEER;🏗️+BUILDING+SCALABLE+WEB+%26+MOBILE+SYSTEMS" alt="Typing SVG" />
+  <img src="https://img.shields.io/badge/STATUS-UNDER_CONSTRUCTION-F59E0B?style=for-the-badge&logo=probot&logoColor=0F172A" />
+  <img src="https://img.shields.io/badge/ROLE-FULLSTACK_%26_BACKEND_BUILDER-0F172A?style=for-the-badge&logo=githubactions&logoColor=F59E0B" />
 </p>
 
 ---
