@@ -3,10 +3,9 @@
   <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
 </p>
 
-<!-- 2. Status Proyek (Anti-Bug) -->
+<!-- 2. Status Proyek (Running Text) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-UNDER_CONSTRUCTION-F59E0B?style=for-the-badge&logo=probot&logoColor=0F172A" />
-  <img src="https://img.shields.io/badge/ROLE-FULLSTACK_%26_BACKEND_BUILDER-0F172A?style=for-the-badge&logo=githubactions&logoColor=F59E0B" />
+  <img src="./builder-ticker.svg" alt="Running Status Ticker" width="100%" />
 </p>
 
 ---
