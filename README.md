@@ -1,6 +1,6 @@
 <!-- 1. Banner Animasi Builder (Excavator & Truk) -->
 <p align="center">
-  <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
+  <img src="./builder-typing.svg" alt="Code Builder Typing" width="100%" />
 </p>
 
 <!-- 2. Status Proyek (Compact & Clean) -->
