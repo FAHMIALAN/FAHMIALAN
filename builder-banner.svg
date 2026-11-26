@@ -1,0 +1,87 @@
+<svg width="850" height="220" viewBox="0 0 850 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0F172A; }
+    .ground { fill: #1E293B; }
+    .stripe { fill: #F59E0B; }
+    .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 800; font-size: 32px; fill: #F8FAFC; }
+    .subtitle { font-family: 'Segoe UI', Ubuntu, sans-serif; font-weight: 600; font-size: 14px; fill: #F59E0B; letter-spacing: 2px; }
+    
+    /* Animasi Truk Melintas */
+    @keyframes driveTruck {
+      0% { transform: translateX(-160px); }
+      100% { transform: translateX(920px); }
+    }
+    .truck { animation: driveTruck 8s linear infinite; }
+
+    /* Animasi Lengan Excavator */
+    @keyframes digArm {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(-18deg); }
+    }
+    .excavator-arm {
+      transform-origin: 690px 142px;
+      animation: digArm 2.5s ease-in-out infinite;
+    }
+
+    /* Animasi Lampu Hazard */
+    @keyframes blinkLight {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    .hazard-light { animation: blinkLight 0.8s infinite; }
+  </style>
+
+  
+  <rect width="850" height="220" rx="12" class="bg" />
+
+  
+  <rect x="0" y="0" width="850" height="10" fill="#F59E0B" />
+  <path d="M0 0 L20 0 L10 10 L-10 10 Z M40 0 L60 0 L50 10 L30 10 Z M80 0 L100 0 L90 10 L70 10 Z M120 0 L140 0 L130 10 L110 10 Z M160 0 L180 0 L170 10 L150 10 Z M200 0 L220 0 L210 10 L190 10 Z M240 0 L260 0 L250 10 L230 10 Z M280 0 L300 0 L290 10 L270 10 Z M320 0 L340 0 L330 10 L310 10 Z M360 0 L380 0 L370 10 L350 10 Z M400 0 L420 0 L410 10 L390 10 Z M440 0 L460 0 L450 10 L430 10 Z M480 0 L500 0 L490 10 L470 10 Z M520 0 L540 0 L530 10 L510 10 Z M560 0 L580 0 L570 10 L550 10 Z M600 0 L620 0 L610 10 L590 10 Z M640 0 L660 0 L650 10 L630 10 Z M680 0 L700 0 L690 10 L670 10 Z M720 0 L740 0 L730 10 L710 10 Z M760 0 L780 0 L770 10 L750 10 Z M800 0 L820 0 L810 10 L790 10 Z M840 0 L860 0 L850 10 L830 10 Z" fill="#0F172A" />
+
+  
+  <text x="45" y="75" class="subtitle">UNDER CONSTRUCTION // CODE BUILDER</text>
+  <text x="45" y="115" class="title">FAHMI AL-ANSHORI</text>
+  <text x="45" y="140" font-family="Segoe UI, sans-serif" font-size="14" fill="#94A3B8">Building Scalable Web &amp; Mobile Applications</text>
+
+  
+  <rect x="0" y="185" width="850" height="35" class="ground" />
+  <line x1="0" y1="185" x2="850" y2="185" stroke="#F59E0B" stroke-width="2" stroke-dasharray="15 10" />
+
+  
+  <g id="excavator">
+    
+    <g class="excavator-arm">
+      <path d="M690 142 L645 100 L610 135" stroke="#F59E0B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+      
+      <path d="M610 135 L595 148 L612 155 L620 142 Z" fill="#94A3B8" />
+    </g>
+    
+    <rect x="685" y="128" width="65" height="38" rx="6" fill="#F59E0B" />
+    <rect x="692" y="135" width="22" height="18" rx="3" fill="#38BDF8" />
+    
+    <circle cx="718" cy="124" r="4" fill="#EF4444" class="hazard-light" />
+    
+    <rect x="680" y="166" width="75" height="18" rx="9" fill="#334155" stroke="#64748B" stroke-width="2" />
+    <circle cx="692" cy="175" r="5" fill="#94A3B8" />
+    <circle cx="718" cy="175" r="5" fill="#94A3B8" />
+    <circle cx="743" cy="175" r="5" fill="#94A3B8" />
+  </g>
+
+  
+  <g class="truck">
+    
+    <path d="M10 140 L75 140 L80 168 L15 168 Z" fill="#F59E0B" />
+    
+    <circle cx="30" cy="140" r="8" fill="#64748B" />
+    <circle cx="48" cy="136" r="10" fill="#475569" />
+    <circle cx="63" cy="140" r="7" fill="#64748B" />
+    
+    <path d="M82 146 L108 146 L115 168 L82 168 Z" fill="#EAB308" />
+    <path d="M87 150 L103 150 L108 160 L87 160 Z" fill="#38BDF8" />
+    
+    <circle cx="95" cy="143" r="3" fill="#EF4444" class="hazard-light" />
+    
+    <circle cx="32" cy="174" r="10" fill="#1E293B" stroke="#94A3B8" stroke-width="3" />
+    <circle cx="98" cy="174" r="10" fill="#1E293B" stroke="#94A3B8" stroke-width="3" />
+  </g>
+</svg>
