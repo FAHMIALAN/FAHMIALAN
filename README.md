@@ -1,11 +1,6 @@
-<!-- 1. Banner Animasi Builder (Excavator & Truk) -->
+<!-- 1. Banner Animasi Builder (Excavator, Truk & Running Text) -->
 <p align="center">
   <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
-</p>
-
-<!-- 2. Status Proyek (Running Text) -->
-<p align="center">
-  <img src="./builder-ticker.svg" alt="Running Status Ticker" width="100%" />
 </p>
 
 ---
