@@ -1,7 +1,8 @@
-<!-- 1. Banner Animasi Builder (Excavator, Truk & Running Text) -->
+<!-- 1. Banner Animasi Builder (Excavator & Truk) -->
 <p align="center">
   <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
 </p>
+
 
 ---
 
@@ -51,3 +52,4 @@
     <img src="https://img.shields.io/badge/Instagram-F59E0B?style=for-the-badge&logo=instagram&logoColor=0F172A" />
   </a>
 </p>
+
