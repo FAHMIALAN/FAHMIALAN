@@ -3,7 +3,9 @@
   <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
 </p>
 
-
+<p align="center">
+  <img src="./builder-typing.svg" alt="Code Builder Typing" width="100%" />
+</p>
 ---
 
 ### 🏗️ Site Blueprint
