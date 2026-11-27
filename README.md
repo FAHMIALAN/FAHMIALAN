@@ -1,6 +1,6 @@
 <!-- 1. Banner Animasi Builder (Excavator, Truk & Running Text) -->
 <p align="center">
-  <img src="./builder-banner-v2.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
+  <img src="./builder-banner.svg" alt="Fahmi Al-Anshori Builder Banner" width="100%" />
 </p>
 
 ---
